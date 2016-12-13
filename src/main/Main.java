@@ -42,15 +42,15 @@ public class Main {
 	}
 	
 	public static void showHelp(){
-		System.out.println("Format for multiple files: CBZ-Creator.jar -m imageFormat filenameInit outputPathInit amountFiles");
-		System.out.println("Format for single files: CBZ-Creator.jar imageFormat filename outputPath");
+		System.out.println("Format for multiple files: CB-Creator.jar -m imageFormat filenameInit outputPathInit amountFiles");
+		System.out.println("Format for single files: CB-Creator.jar imageFormat filename outputPath");
 		System.out.println("");
 		System.out.println("Example:");
 		System.out.println("If we have the next 3 folders with jpg images:");
 		System.out.println("Capitulo 1");
 		System.out.println("Capitulo 2");
 		System.out.println("Capitulo 3");
-		System.out.println("We will call this command: CBZ-Creator.jar -m jpg \"Capitulo \" \"Output \"  3");
+		System.out.println("We will call this command: CB-Creator.jar -m jpg \"Capitulo \" \"Output \"  3");
 		System.out.println("It will create 3 files:");
 		System.out.println("Capitulo 01.cbz");
 		System.out.println("Capitulo 02.cbz");
